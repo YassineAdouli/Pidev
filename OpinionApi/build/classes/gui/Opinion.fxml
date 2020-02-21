@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="opn" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFA500;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.OpinionController">
+   <children>
+      <Button fx:id="idajt" layoutX="67.0" layoutY="111.0" mnemonicParsing="false" onAction="#AjoutReclamation" text="Ajouter Reclamation" />
+      <Button fx:id="idajtavis" layoutX="369.0" layoutY="136.0" mnemonicParsing="false" onAction="#ajouterAvis" text="Ajouter Avis" />
+      <Button fx:id="idmodfr" layoutX="64.0" layoutY="165.0" mnemonicParsing="false" onAction="#ModifierReclamation" text="Modifier Reclamation" />
+      <Button fx:id="issupr" layoutX="59.0" layoutY="221.0" mnemonicParsing="false" onAction="#SupprimerReclaation" text="Supprimer Reclamation" />
+      <Button fx:id="idma" layoutX="366.0" layoutY="200.0" mnemonicParsing="false" onAction="#ModifierAvis" text="Modifier Avis" />
+      <Button fx:id="idsa" layoutX="361.0" layoutY="257.0" mnemonicParsing="false" onAction="#SupprimerAvis" text="Supprimer Avis" />
+      <Button layoutX="45.0" layoutY="282.0" mnemonicParsing="false" onAction="#RepondreReclamation" text="Repondre à une Reclamation" />
+      <Label layoutX="245.0" layoutY="38.0" prefHeight="32.0" prefWidth="83.0" text="Opinion">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

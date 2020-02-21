@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="rsprec" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: FFA500;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.RecuperationDeleteReclmationController">
+   <children>
+      <Button fx:id="idex" layoutX="53.0" layoutY="37.0" mnemonicParsing="false" onAction="#Exit" text="Exit" />
+      <Label layoutX="126.0" layoutY="147.0" text="Reclamation supprimer" />
+   </children>
+</AnchorPane>
